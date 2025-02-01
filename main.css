@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+body {
+  background-color: #fefdf8;
+}
+
 .prinav {
   background-color: #f9c4bc;
 }
@@ -14,7 +18,7 @@
   display: inline-block;
   margin: 10px;
   width: 100px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .prinav ul {
@@ -25,14 +29,14 @@
 
 .prinav ul li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-left: 20px;
 }
 
-.spacer {
+.navspacer {
   display: inline-block;
   /* Parent width - Logo width - Menu <ul> width */
-  width: calc(100% - 100px - 570px);
+  width: calc(100% - 100px - 650px);
 }
 
 header {
@@ -65,10 +69,41 @@ header {
 
 .secnav {
   display: inline-block;
+  vertical-align: top;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.welcome {
+  margin: 5%;
+}
+
+main nav div img {
+  width: 100px;
+}
+
+#lefticon {
+  margin-right: 5%;
+}
+
+#righticon {
+  margin-left: 5%;
+}
+
+.right {
+  text-align: right;
+}
+
+.bodyspacer {
+  height: 3em;
 }
 
 footer {
   padding: 20px;
+  margin-top: 5%;
   text-align: center;
   background-color: #f9c4bc;
 }
