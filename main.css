@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-nav {
+.prinav {
   background-color: #f9c4bc;
 }
 
@@ -17,15 +17,15 @@ nav {
   border: 2px solid black;
 }
 
-nav ul {
+.prinav ul {
   display: inline-block;
   vertical-align: top;
   margin-top: 85px;
 }
 
-nav ul li {
+.prinav ul li {
   display: inline-block;
-  font-size: x-large;
+  font-size: 1.5em;
   margin-left: 20px;
 }
 
@@ -63,6 +63,16 @@ header {
     font-size: 2em;
 }
 
+.secnav {
+  display: inline-block;
+}
+
 footer {
+  padding: 20px;
   text-align: center;
+  background-color: #f9c4bc;
+}
+
+footer p {
+  font-size: 1.2em;
 }
