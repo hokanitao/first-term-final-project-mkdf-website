@@ -4,21 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <title>MKDF</title>
 </head>
+
 <body>
   <nav aria-label="primary" class="prinav">
-    <a href="#"><img src="./assets/logo/mk_logo.jpg" id="mklogo"></a>
+    <a href="#" style="display: inline-block;">
+      <img src="./assets/logo/mk_logo.jpg" id="mklogo">
+    </a>
     <span class="navspacer"></span>
-    <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="./pages/about.html">ABOUT</a></li>
-      <li><a href="./pages/class.html">CLASSES</a></li>
-      <li><a href="./pages/update.html">UPDATE</a></li>
-      <li><a href="./pages/gallery.html">GALLERY</a></li>
-      <li><a href="./pages/contact.html">CONTACT</a></li>
-    </ul>
+    <div class="navcontent">
+      <div>
+        <a href="#"><img src="./assets/icon/home.svg">HOME</a>
+      </div>
+      <div>
+        <a href="./pages/about.html"><img src="./assets/icon/about.svg">ABOUT</a>
+      </div>
+      <div>
+        <a href="./pages/class.html"><img src="./assets/icon/classes.svg">CLASSES</a>
+      </div>
+      <div>
+        <a href="./pages/update.html"><img src="./assets/icon/update.svg">UPDATE</a>
+      </div>
+      <div>
+        <a href="./pages/gallery.html"><img src="./assets/icon/gallery.svg">GALLERY</a>      
+      </div>
+      <div>
+        <a href="./pages/contact.html"><img src="./assets/icon/contact.svg">CONTACT</a>
+      </div>
+    </div>
   </nav>
+
   <header>
     <img src="./assets/all.jpg" class="headphoto">
     <div class="header">
@@ -26,44 +45,83 @@
       <h2>since 2000</h2>
     </div>
   </header>
+
   <main>
     <div class="welcome">
       <p>Welcome and thank you for visiting!</p>
     </div>
+
     <nav aria-label="secondary">
       <div>
-        <a href="./pages/about.html" id="lefticon">
+        <a href="./pages/about.html" class="secnav" id="lefticon">
           <img src="./assets/icon/about.svg">
         </a>
-        <p class="secnav">ABOUT</p>
+        <div class="secnav">
+          <p class="secnav" id="about">ABOUT US</p>
+          <p>
+            We are a passionate dance group brought together by a love for movement,
+            <br>welcoming members of all ages, from children to adults!
+          </p>
+        </div>
       </div>
       <div class="bodyspacer"></div>
+
       <div class="right">
-        <p class="secnav">CLASSES</p>
-        <a href="./pages/class.html" id="righticon">
+        <div class="secnav">
+          <p id="classes">
+            CLASSES
+          </p>
+          <p>
+            Join our dance lessons, 
+            <br>
+            open to beginners and experienced dancers alike!
+            <br>
+            Check the latest schedule and locations, and feel free to join us!
+          </p>
+        </div>
+        <a href="./pages/class.html" class="secnav" id="righticon">
           <img src="./assets/icon/classes.svg">
         </a>
       </div>
       <div class="bodyspacer"></div>
+
       <div>
-        <a href="./pages/update.html" id="lefticon">
+        <a href="./pages/update.html" class="secnav" id="lefticon">
           <img src="./assets/icon/update.svg">
         </a>
-        <p class="secnav">UPDATE</p>
+        <div class="secnav">        
+          <p class="secnav" id="update">UPDATE</p>
+          <p>
+            Stay updated with our dance group&apos;s latest events and news!
+            <br>Don&apos;t miss out on our latest announcements!
+          </p>
+        </div>
       </div>
       <div class="bodyspacer"></div>
+
       <div class="right">
-        <p class="secnav">GALLERY</p>
-        <a href="./pages/gallery.html" id="righticon">
+        <div class="secnav">
+          <p class="secnav" id="gallery">GALLERY</p>
+          <p>
+            Check out photos from our events!
+          </p>
+        </div>
+        <a href="./pages/gallery.html" class="secnav" id="righticon">
           <img src="./assets/icon/gallery.svg">
         </a>
       </div>
       <div class="bodyspacer"></div>
+
       <div>
-        <a href=./pages/contact.html#" id="lefticon">
+        <a href="./pages/contact.html#" class="secnav" id="lefticon">
           <img src="./assets/icon/contact.svg">
         </a>
-        <p class="secnav">CONTACT</p>
+        <div class="secnav">
+          <p class="secnav" id="contact">CONTACT</p>
+          <p>
+            Contact us here.
+          </p>
+        </div>
       </div>
     </nav>
   </main>

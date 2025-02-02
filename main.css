@@ -4,6 +4,9 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -16,27 +19,43 @@ body {
 
 #mklogo {
   display: inline-block;
-  margin: 10px;
-  width: 100px;
+  vertical-align: middle;
+  margin: 5px;
+  margin-left: 10px;
+  width: 70px;
   border: 1px solid black;
 }
 
-.prinav ul {
+.prinav {
   display: inline-block;
   vertical-align: top;
-  margin-top: 85px;
+  margin-right: 15px;
+  width: 100%;
 }
 
-.prinav ul li {
+.navcontent{
   display: inline-block;
-  font-size: 1.2em;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.prinav div div {
+  display: inline-block;
+  font-size: 0.8em;
   margin-left: 20px;
+
+}
+
+.prinav div div img {
+  display: block;
+  height: 30px;
+  margin: 0 auto;
 }
 
 .navspacer {
   display: inline-block;
   /* Parent width - Logo width - Menu <ul> width */
-  width: calc(100% - 100px - 650px);
+  width: calc(100% - 100px - 480px);
 }
 
 header {
@@ -44,11 +63,13 @@ header {
   position: relative;
   text-align: center;
   vertical-align: top;
+  width: 100%;
 }
 
 .headphoto {
   width: 100%;
   opacity: 0.3;
+  text-align: center;
 }
 
 .header {
@@ -57,6 +78,7 @@ header {
   left: 50%;
   transform: translate(-50%,-50%);  /*センター寄せの修正*/
   width: 100%;
+  text-align: center;
 }
 
 .header h1 {
@@ -64,12 +86,13 @@ header {
 }
 
 .header h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .secnav {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  /* width: 60%; */
 }
 
 main {
@@ -79,10 +102,24 @@ main {
 
 .welcome {
   margin: 5%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold 700;
+  text-decoration: underline;
+}
+
+main nav {
+  margin-top: 50px;
 }
 
 main nav div img {
-  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+}
+
+#about, #classes, #update, #gallery, #contact {
+  font-size: larger;
 }
 
 #lefticon {
