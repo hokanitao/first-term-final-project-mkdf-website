@@ -43,7 +43,6 @@ body {
   display: inline-block;
   font-size: 0.8em;
   margin-left: 20px;
-
 }
 
 .prinav div div img {
@@ -89,12 +88,6 @@ header {
   font-size: 2em;
 }
 
-.secnav {
-  display: inline-block;
-  vertical-align: middle;
-  /* width: 60%; */
-}
-
 main {
   margin-left: 10%;
   margin-right: 10%;
@@ -110,11 +103,15 @@ main {
 
 main nav {
   margin-top: 50px;
+  min-width: 730px;
+}
+
+main nav div {
+  margin-bottom: 50px;
+  vertical-align: middle;
 }
 
 main nav div img {
-  display: inline-block;
-  vertical-align: top;
   width: 80px;
 }
 
@@ -124,18 +121,27 @@ main nav div img {
 
 #lefticon {
   margin-right: 5%;
+  float: left;
 }
 
 #righticon {
   margin-left: 5%;
 }
 
-.right {
-  text-align: right;
+.left {
+  float: left;
 }
 
-.bodyspacer {
-  height: 3em;
+.class {
+  text-align: right;
+  /* Parent width - class content width - icon width */
+  margin-left: calc(100% - 510px - 100px);
+}
+
+.gallery {
+  text-align: right;
+  /* Parent width - gallery content width - icon width */
+  margin-left: calc(100% - 300px - 100px);
 }
 
 footer {
