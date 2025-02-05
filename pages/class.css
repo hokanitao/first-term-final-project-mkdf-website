@@ -88,10 +88,18 @@ table td,
 table th {
   text-align: center;
   padding: 15px 20px;
-  background-color: #54b9b5;
   color: #fefdf8;
 }
 
+table tbody tr:nth-child(even) {
+  color: #ffffff;
+  background-color: #ec8366;
+}
+
+table tbody tr:nth-child(odd) {
+  color: #ffffff;
+  background-color: #54b9b5;
+}
 
 footer {
   padding: 20px;
