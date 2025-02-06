@@ -61,10 +61,34 @@ body {
   width: calc(100% - 100px - 480px);
 }
 
+main {
+  padding: 5% 5%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3%;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  border-bottom: 2px dashed #f9c4bc;
+  display: inline-block;
+}
+
+.text {
+  font-size: 1.4em;
+  line-height: 2;
+  margin: 0 0 1em 0;
+}
+
+em {
+  font-size: 1.4em;
+}
+
 
 footer {
   padding: 20px;
-  margin-top: 5%;
   text-align: center;
   background-color: #f9c4bc;
 }
