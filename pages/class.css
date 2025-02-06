@@ -62,18 +62,23 @@ body {
 }
 
 header {
-  margin: 50px;
+  margin: 5%;
   margin-bottom: 15px;
   text-align: center;
-  font-family: "Ribeye Marrow", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.3em;
 }
 
 h1 {
   border-bottom: 2px dashed #f9c4bc;
   display: inline-block;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 1.4em;
 }
 
 main {
