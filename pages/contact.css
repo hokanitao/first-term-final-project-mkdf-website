@@ -145,8 +145,8 @@ em {
 }
 
 input, textarea {
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 30px;
+  border-radius: 30px;
   border: 1px solid #ec8366;
   resize: none;
 }
