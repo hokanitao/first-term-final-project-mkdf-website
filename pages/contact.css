@@ -97,7 +97,16 @@ form {
 
 label {
   margin-bottom: 10px;
+  padding: 3px 20px;
   font-size: 1.1em;
+  background-color: #ec8366;
+  color: #fefdf8;
+  width: fit-content;
+}
+
+em {
+  font-size: 0.6em;
+  padding-left: 10px;
 }
 
 .grid {
