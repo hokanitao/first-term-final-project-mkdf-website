@@ -61,6 +61,104 @@ body {
   width: calc(100% - 100px - 480px);
 }
 
+header {
+  margin: 5%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h1 {
+  border-bottom: 2px dashed #f9c4bc;
+  display: inline-block;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+
+main {
+  margin: 5% 10%;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.grid {
+  display: grid;
+  }
+
+.name-email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.class {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px 1fr;
+  margin-bottom: 50px;
+  gap: 10px;
+  vertical-align: bottom;
+}
+
+.class label {
+  grid-column: 1/ 5;
+  margin-bottom: 10px;
+}
+
+.class input {
+  margin-left: 30px;
+}
+
+.message {
+  display: grid;
+  grid-template-rows: 1fr 3fr; 
+  margin-bottom: 50px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ec8366;
+  resize: none;
+}
+
+.submit {
+  text-align: right;
+}
+
+.submit button {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: #54b9b5;
+  color: #fefdf8;
+  border: 0;
+  border-radius: 5px;
+}
+
+.submit button:hover {
+  opacity: 0.7;
+}
+
+.submit button img {
+  width: 20px;
+}
 
 footer {
   padding: 20px;
