@@ -65,7 +65,7 @@ body {
   width: calc(100% - 100px - 480px);
 }
 
-header {
+.title {
   margin: 5%;
   margin-bottom: 0;
   text-align: center;

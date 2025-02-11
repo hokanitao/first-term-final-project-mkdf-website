@@ -65,7 +65,7 @@ body {
   width: calc(100% - 100px - 480px);
 }
 
-header {
+.title {
   margin: 5%;
   margin-bottom: 15px;
   text-align: center;
@@ -88,12 +88,11 @@ h1 {
 main {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 1.5em;
   text-align: center;
 }
 
 table {
-  font-size: 1.15em;
+  font-size: 1.5em;
   width: 100%;
   text-align: center;
   border-spacing: 20px;
