@@ -116,15 +116,17 @@ main nav {
 
 main nav div {
   margin-bottom: 50px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 main nav div img {
   width: 80px;
 }
 
-h2 {
+main nav h2 {
   font-size: larger;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 #lefticon {
@@ -147,7 +149,7 @@ h2 {
 .class {
   text-align: right;
   /* Parent width - class content width - icon width */
-  margin-left: calc(100% - 510px - 100px);
+  margin-left: calc(100% - 300px - 100px);
 }
 
 .gallery {
