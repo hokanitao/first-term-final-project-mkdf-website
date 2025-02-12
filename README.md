@@ -1,7 +1,7 @@
 # first-term-final-project-mkdf-website
 WebDev Essentials Course /1st Term /Final Project /Static Website
 
-# Dance Team Website
+# MK Dance Factory Website
 
 Welcome to the repository for the official website of our dance team. This website serves as a digital hub for everything related to our dance group, showcasing who we are, our classes, recent updates, a gallery of our performances, and how to get in touch with us.
 
