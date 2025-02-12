@@ -7,12 +7,12 @@ Welcome to the repository for the official website of our dance team. This websi
 
 ## Pages:
 
-- **Home**: An overview of our dance team, including our mission and values.
+- **Home**
 - **About**: More detailed information about our team, our history, and what we stand for.
-- **Class**: Information about the dance classes we offer, including schedules and sign-up details.
+- **Class**: Information about the dance classes we offer, including schedules.
 - **Update**: The latest news, upcoming performances, and events.
-- **Gallery**: A collection of photos and videos showcasing our team in action.
-- **Contact**: How you can reach out to us for inquiries, sign-ups, or collaborations.
+- **Gallery**: A collection of photos showcasing our team in action.
+- **Contact**: How you can reach out to us for inquiries.
 
 ## About This Project:
 
