@@ -68,10 +68,9 @@
   width: 100%;
 }
 
-.headphoto {
+.headphoto img {
   width: 100%;
-  opacity: 0.3;
-  text-align: center;
+  opacity: 0.3; /* 画像の透明度を調整 */
 }
 
 .header {
@@ -81,6 +80,11 @@
   transform: translate(-50%,-50%);  /*センター寄せの修正*/
   width: 100%;
   text-align: center;
+  z-index: 2; /* 文字を最前面に表示 */
+}
+
+.header h1, .header h2 {
+  z-index: 3; /* 文字自体が最前面に来るように設定 */
 }
 
 main {
