@@ -9,16 +9,11 @@
   font-style: normal;
 }
 
-body {
-  background-color: #fefdf8;
-}
-
 .prinav {
   background-color: #f9c4bc;
 }
 
 #mklogo {
-  display: inline-block;
   vertical-align: middle;
   margin: 5px;
   margin-left: 10px;
@@ -61,7 +56,7 @@ body {
 
 .navspacer {
   display: inline-block;
-  /* Parent width - Logo width - Menu <ul> width */
+  /* Parent width - Logo width - Menu <div> width */
   width: calc(100% - 100px - 480px);
 }
 
@@ -88,14 +83,6 @@ body {
   text-align: center;
 }
 
-.header h1 {
-  font-size: 5em;
-}
-
-.header h2 {
-  font-size: 2em;
-}
-
 main {
   margin-left: 10%;
   margin-right: 10%;
@@ -116,7 +103,6 @@ main nav {
 
 main nav div {
   margin-bottom: 50px;
-  /* vertical-align: middle; */
 }
 
 main nav div img {
@@ -159,6 +145,7 @@ main nav h2 {
 }
 
 footer {
+  clear: both;
   padding: 20px;
   margin-top: 5%;
   text-align: center;
