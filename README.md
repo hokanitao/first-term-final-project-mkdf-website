@@ -23,6 +23,11 @@ This website was created as part of my final project for learning HTML and CSS, 
 - HTML
 - CSS
 
+## Author:
+
+- **Creator**: Kaho O.
+- **Dance Team Owner**: Maki O.
+
 ## How to Run:
 
 1. Clone this repository to your local machine.
